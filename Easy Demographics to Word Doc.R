@@ -50,7 +50,7 @@ tb=tbl_summary(data1, #tell function what dataset to convert
 #Print to the viewer
 tb
 
-###IF THE TABLE LOOKS GOOD THEN YOU WOULD EXECUTE LINES 42 AND 44 TO GET THE WORD DOC
+###IF THE TABLE LOOKS GOOD THEN YOU WOULD EXECUTE LINES 54 AND 57 TO GET THE WORD DOC
 # #Convert to a format that can then be convert to a word doc
 # table1=as_hux_table(tb)
 # #Convert to word doc which will be saved in your current path
@@ -105,7 +105,7 @@ tb
 
 #However, I may want to change the order of the variables.
 #I'll create a new data variable for this as a mistake may make debugging difficult
-data2 = data1[,c("Age","Gender","BMI (kg/m²)","Stroke","Heart Disease","Hypertension",
+data2 = data1[,c("Age","Gender","BMI (kg/mÂ²)","Stroke","Heart Disease","Hypertension",
                  "Average Glucose Level","Smoking Status","Ever Married", "Residence Type","Work Type")]
 
 names(data2)
